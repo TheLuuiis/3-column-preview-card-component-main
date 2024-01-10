@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contenedor */
+
+.container {
+    max-width: 1050px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 350px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.orange,
+.orange a {
+    font-weight: 600;
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px 0px 0px 20px ;
+    background: hsl(31, 77%, 52%);
+    transition: 1s ease;
+}
+
+.orange a:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.cyan,
+.cyan a {
+    font-weight: 600;
+    color: hsl(184, 100%, 22%);;
+    background: hsl(184, 100%, 22%);
+    transition: 1s ease;
+}
+
+.cyan a:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.cyan-dark,
+.cyan-dark a {
+    font-weight: 600;
+    color: hsl(179, 100%, 13%);
+    border-radius: 0px 20px 20px 0px;
+    background: hsl(179, 100%, 13%);
+    transition: 1s ease;
+}
+
+.cyan-dark a:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.description svg {
+    width: 100%;
+    padding: 0px 0px 25px;
+}
+
+.description {
+    width: 225px;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+    justify-content: start;
+}
+
+.description h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -1px;
+    padding: 0px 0px 30px;
+}
+
+.description p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 100px;
+}
+
+.description a {
+    padding: 10px 20px;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
